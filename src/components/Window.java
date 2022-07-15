@@ -16,6 +16,7 @@ public class Window implements Runnable, WindowSpecification {
 	public void run() {
 		loadMenu();
 		mainFrame.pack();
+		mainFrame.setLocationRelativeTo(null);
 		mainFrame.setVisible(true);
 	}
 	private void loadMenu() {
